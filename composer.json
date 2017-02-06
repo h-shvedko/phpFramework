@@ -1,0 +1,28 @@
+{
+    "name":              "Test Part II",
+    "type":              "library",
+    "description":       "Test task for applying for position PHP developer in Copernicus",
+    "keywords":          [
+        "Copernicus",
+        "test"
+    ],
+    "config":            {
+        "prepend-autoloader": false
+    },
+    "license":           "proprietary",
+    "prefer-dist":       true,
+    "minimum-stability": "stable",
+    "require-dev":       {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload":          {
+        "psr-4": {
+            "Copernicus\\": "src/"
+        }
+    },
+    "autoload-dev":      {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
